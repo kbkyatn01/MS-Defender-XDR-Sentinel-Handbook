@@ -1,0 +1,42 @@
+site_name: Microsoft Defender XDR & Sentinel SOC Implementation Handbook
+site_description: Production-focused SOC implementation guide for Microsoft Defender XDR and Microsoft Sentinel
+site_author: kbkyatn01
+
+theme:
+  name: mkdocs
+
+nav:
+  - Home: index.md
+
+  - Volume 1 - Architecture:
+      - Security Architecture: architecture/01-security-architecture.md
+
+  - Volume 2 - Identity Monitoring:
+      - Overview: identity/index.md
+
+  - Volume 3 - Endpoint Monitoring:
+      - Overview: endpoint/index.md
+
+  - Volume 4 - Email Security:
+      - Overview: email/index.md
+
+  - Volume 5 - Cloud Security:
+      - Overview: cloud/index.md
+
+  - Volume 6 - Network Security:
+      - Overview: network/index.md
+
+  - Volume 7 - Detection Engineering:
+      - Overview: kql/index.md
+
+  - Volume 8 - Playbooks:
+      - Overview: playbooks/index.md
+
+  - Volume 9 - Incident Response:
+      - Overview: incident-response/index.md
+
+  - Volume 10 - Dashboards:
+      - Overview: dashboards/index.md
+
+  - Appendices:
+      - References: references/index.md
